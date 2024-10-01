@@ -12,3 +12,4 @@ pipelines:
                 OUTPUT_LOCATION: '$BITBUCKET_CLONE_DIR/.next'
                 APP_BUILD_COMMAND: 'npm run build'
                 API_TOKEN: $deployment_token
+                CONFIGFILE_LOCATION: '$BITBUCKET_CLONE_DIR/bitbucket-pipelines.yml'
