@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "npm run build -w next"
+    "build": "npm run build -w next",
+    "start": "npm run start -w next"
   },
   "engines": {
     "node": "18.20.4"
