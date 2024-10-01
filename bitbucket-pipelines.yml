@@ -13,3 +13,4 @@ pipelines:
                 APP_BUILD_COMMAND: 'npm run build'
                 API_TOKEN: $deployment_token
                 CONFIGFILE_LOCATION: '$BITBUCKET_CLONE_DIR/packages/next/staticwebapp.config.json'
+                BUILD_TIMEOUT_IN_MIN: 15
