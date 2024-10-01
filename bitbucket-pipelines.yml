@@ -9,7 +9,7 @@ pipelines:
           - pipe: microsoft/azure-static-web-apps-deploy:main
             variables:
                 APP_LOCATION: '$BITBUCKET_CLONE_DIR'
-                OUTPUT_LOCATION: '$BITBUCKET_CLONE_DIR/packages/next/.next'
+                OUTPUT_LOCATION: '$BITBUCKET_CLONE_DIR/packages/next'
                 APP_BUILD_COMMAND: 'npm run build'
                 API_TOKEN: $deployment_token
                 CONFIGFILE_LOCATION: '$BITBUCKET_CLONE_DIR/packages/next/staticwebapp.config.json'
